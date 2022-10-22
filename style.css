@@ -1,0 +1,293 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo-align {
+  width: 3em;
+  margin: 1em 0 1em 3em;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  height: 6em;
+  align-items: center;
+  border-bottom: 2px solid lavender;
+}
+
+nav ul li {
+  padding: 1em;
+}
+
+.nav-item-right-align {
+  margin-left: auto;
+  margin-right: 3em;
+}
+
+.list-item {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.list-item:hover {
+  color: darkgreen;
+}
+
+.lower-case {
+  text-transform: none;
+}
+
+.join-button,
+.signin-button,
+.play-to-win,
+.order-now {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  font-family: sans-serif;
+  font-weight: 600;
+  border: 1px solid black;
+  font-size: small;
+  padding: 0.6em 1em 0.6em 1em;
+  border-radius: 2em;
+  transition: 0.3s all ease-in;
+}
+
+.join-button:hover {
+  background-color: rgb(67, 65, 65);
+  border: 1px solid black;
+}
+
+.signin-button {
+  color: black;
+  background: none;
+}
+
+.signin-button:hover {
+  background-color: lightgray;
+}
+
+.container {
+  padding: 0 2.3em 0 2.3em;
+  border-bottom: 2px solid lavender;
+}
+
+.align-width {
+  width: 50%;
+}
+
+#first-section,
+#second-section,
+#third-section {
+  display: flex;
+  padding-top: 2.3em;
+}
+
+#first-section div,
+#second-section div,
+#third-section div {
+  background-color: #d4e9e2;
+  /* margin-left: auto; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.caption-style,
+.sub-caption-style {
+  font-family: sans-serif;
+  font-size: 3.4em;
+  letter-spacing: 1px;
+  color: #1e3932;
+  margin-bottom: 0;
+}
+
+.para-style,
+.text-style {
+  font-family: sans-serif;
+  color: #1e3932;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  line-height: 1.3em;
+}
+
+.play-to-win {
+  color: #1e3932;
+  background: none;
+  border: 1px solid #1e3932;
+}
+
+.play-to-win:hover {
+  background-color: aliceblue;
+}
+
+.order {
+  order: 2;
+}
+
+#second-section div {
+  align-items: flex-start;
+  justify-content: start;
+}
+
+.text-left-align {
+  text-align: start;
+}
+
+.padding-left {
+  padding-left: 2.6em;
+}
+
+.sub-caption-style {
+  font-size: 1.5em;
+}
+
+.text-style {
+  font-size: 1.1em;
+  line-height: 2em;
+}
+
+.margin-left {
+  margin-left: 0.5em;
+}
+
+.padding-bottom {
+  padding-bottom: 1.5em;
+}
+
+#third-section div {
+  background-color: #006241;
+}
+
+.text-white {
+  color: white;
+}
+
+.order-now {
+  background: none;
+  border: 1px solid white;
+}
+
+.order-now:hover {
+  background-color: #4c836bc7;
+}
+
+.final-section {
+  margin-top: 4em;
+}
+
+.final-section {
+  text-align: center;
+}
+
+.final-text-style,
+.final-text-style-2 {
+  font-family: sans-serif;
+  font-size: small;
+  letter-spacing: 0.5px;
+  line-height: 2em;
+  font-weight: 600;
+}
+
+.link-style,
+.footer-list-style:hover {
+  color: black;
+}
+
+.link-style:hover {
+  text-decoration: none;
+}
+
+.margin-top {
+  margin-top: 2.5em;
+}
+
+.final-text-style-2 {
+  margin-top: 6em;
+}
+
+.margin-bottom {
+  margin-bottom: 2em;
+}
+
+.footer-list-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 5em 0 5em;
+  margin-top: 1.3em;
+}
+
+footer section div ul li {
+  list-style: none;
+}
+
+.footer-list-caption {
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+.footer-list-style,
+.privecy-policy {
+  text-decoration: none;
+  color: gray;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  line-height: 3em;
+}
+
+footer hr {
+  height: 2px;
+  width: 92%;
+  background-color: lavender;
+  border: none;
+}
+
+.social-icons ul {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons ul {
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.icon-size {
+  font-size: 2em;
+  color: black;
+  margin-right: 1em;
+}
+
+.final-links {
+  display: flex;
+  justify-content: center;
+}
+
+.privecy-policy {
+  color: black;
+}
+
+.privecy-policy:hover {
+  text-decoration: underline;
+}
+
+.text-center {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: small;
+  color: gray;
+  letter-spacing: 0.7px;
+}
